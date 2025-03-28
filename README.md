@@ -3,7 +3,7 @@
 This mod strives to add every potion from Terraria into Balatro
 
 Currently the mod features:
-- 24 new Potion cards
+- 26 new Potion cards
 - 1 new Joker
 - 1 new Booster pack type
 
