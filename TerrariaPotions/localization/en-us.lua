@@ -228,7 +228,8 @@ return {
                 text = {
                     '{C:attention}Create{} a copy of {C:attention}#1#{}',
                     'selected {C:dark_edition}Negative{} Joker,',
-                    'Remove {C:dark_edition}Negative{} from {C:attention}both{} copies'
+                    'Remove {C:dark_edition}Negative{} from {C:attention}both{} copies',
+                    '{C:inactive}(Must have room for {}{C:attention}both{}{C:inactive}copies){}'
                 }
             },
         },
