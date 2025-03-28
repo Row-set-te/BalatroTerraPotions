@@ -230,7 +230,20 @@ return {
                     '{C:attention}Create{} a copy of {C:attention}#1#{}',
                     'selected {C:dark_edition}Negative{} Joker,',
                     'Remove {C:dark_edition}Negative{} from {C:attention}both{} copies',
-                    '{C:inactive}(Must have room for {}{C:attention}both{}{C:inactive}copies){}'
+                    '{C:inactive}(Must have room for {}{C:attention}both{} {C:inactive}copies){}'
+                }
+            },
+            c_terrapot_endurance = {
+                name = 'Endurance Potion',
+                text = {
+                    '+2 {C:attention}Consumable Slots{}'
+                }
+            },
+            c_terrapot_summoning = {
+                name = 'Summoning Potion',
+                text = {
+                    'Create {C:attention}#1#{} random',
+                    '{C:TerraPotion_2}Potion{} cards'
                 }
             },
         },
