@@ -58,7 +58,8 @@ return {
                 text = {
                     '{C:green}#1# in #2# chance',
                     'to turn {C:attention}#3#{}',
-                    'selected card {C:dark_edition}Negative{}'
+                    'selected card or',
+                    'Joker {C:dark_edition}Negative{}'
                 }
             },
             c_terrapot_lesserHeal = {
@@ -138,8 +139,8 @@ return {
                     '{C:attention}Return Tag{}'
                 }
             },
-            c_terrapot_crate = {
-                name = 'Crate Potion',
+            c_terrapot_mushroom = {
+                name = 'Mushroom',
                 text = {
                     'Add one more {C:attention}Booster Pack{}',
                     'to the next {C:attention}Shop{}'

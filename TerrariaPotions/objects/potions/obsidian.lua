@@ -15,7 +15,11 @@ SMODS.Consumable(
             info_queue[#info_queue+1] = {key = 'eternal', set = 'Other'}
         end,
         can_use = function(self, card)
-            return true
+            if #G.jokers.cards < G.jokers.config.card_limit then
+                return true
+            else
+                return false
+            end
         end,
         use = function(self, card, area, copier)
             G.E_MANAGER:add_event(Event({trigger = 'after', delay = 0.2, func = function()

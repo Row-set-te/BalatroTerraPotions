@@ -25,7 +25,7 @@ SMODS.Consumable(
         end,
         can_use = function(self, card)
             if #G.jokers.highlighted == card.ability.extra.max_highlighted then
-                if #G.jokers.cards + 1 < G.jokers.config.card_limit then
+                if #G.jokers.cards - 1 < G.jokers.config.card_limit then
                     if G.jokers.highlighted[1].edition ~= nil then
                         if G.jokers.highlighted[1].edition.negative == true then
                             return true
