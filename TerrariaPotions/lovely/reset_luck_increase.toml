@@ -11,7 +11,7 @@ delay(0.4); ease_ante(1); delay(0.4); check_for_unlock({type = 'ante_up', ante =
 '''
 position = "after"
 payload = '''
-for i=G.TerraPotion.Temp_luck_increase / 2, 0, -1 do
+for i=G.TerraPotion.Temp_luck_increase - 1, 0, -1 do
     for k, v in pairs(G.GAME.probabilities) do 
         G.GAME.probabilities[k] = v/2
     end
