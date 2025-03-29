@@ -1,0 +1,14 @@
+{
+	"id": "TerrariaPotions",
+	"name": "TerrariaPotions",
+	"display_name": "Terraria Potions",
+	"author": ["Row_set_te"],
+	"description": "adds new consumables themed after the potions from terraria",
+	"prefix": "terrapot",
+	"main_file": "main.lua",
+	"priority": 0,
+	"badge_colour": "27db2d",
+	"badge_text_colour": "ccffcf",
+	"version": "0.0",
+	"dependencies": ["Steamodded (>=1.*)"]
+}
